@@ -18,4 +18,5 @@ function readExcel(filePath, fileName) {
 const oldFileData = readExcel(oldFilePath, "oldFilePath");
 const newFileData = readExcel(newFilePath, "newFilePath");
 
-console.log(oldFileData, newFileData);
+console.log(oldFileData);
+console.log(newFileData);
